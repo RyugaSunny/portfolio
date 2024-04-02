@@ -28,22 +28,10 @@
   <!-- Template Main CSS File -->
   <link href="{% static 'home/css/style.css' %}" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: iPortfolio
-  * Updated: Mar 10 2023 with Bootstrap v5.2.3
-  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 <script id="ratufa_loader" src="https://www.ratufa.io/c/ld.js?f=l38aomvg&n=n1.ratufa.io"></script>
 <body>
- <!-- Template Name: iPortfolio
-Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
- -->
-  <!-- ======= Mobile nav toggle button ======= -->
+
   <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
 
   <!-- ======= Header ======= -->
@@ -103,7 +91,7 @@ License: https://bootstrapmade.com/license/
               <div class="col-lg-6">
                 <ul>
                   <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>20 July 2003</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span><a href="https://deepanshu981.pythonanywhere.com/">Previously build</a></span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span><a href="{% url 'oldwebsite:index' %}">Previously build</a></span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span><a href=“tel:”+919812699870>+919812699870</a></span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Rohtak, Haryana</span></li>
                 </ul>
@@ -333,7 +321,7 @@ License: https://bootstrapmade.com/license/
               <img src="{% static 'home/img/portfolio/portfolio-6.jpg' %}" class="img-fluid" alt="">
               <div class="portfolio-links">
                 <a href="{% static 'home/img/portfolio/portfolio-6.jpg' %}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                <a href="" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="{% static 'home/img/portfolio/portfolio-6.jpg' %}" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>  
