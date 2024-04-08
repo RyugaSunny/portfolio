@@ -222,6 +222,7 @@ h6 {
   background-size: cover;
 }
 
+
 #hero:before {
   content: "";
   background: rgba(5, 13, 24, 0.3);
