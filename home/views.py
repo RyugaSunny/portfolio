@@ -6,3 +6,6 @@ def index(r):
 
 def oldindex(r):
     return render(r,r"oldwebsite/index.html")
+
+def todohome(r):
+    return render(r,r"listodo/index.html")
